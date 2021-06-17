@@ -1,0 +1,21 @@
+.Expense-filter{
+    color:white;
+    padding: 0 1rem;
+}
+.Expense-filter_control{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.Expense-filter_control label{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.Expense-filter_control select{
+    font:inherit;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 0.5rem 3rem;
+}
